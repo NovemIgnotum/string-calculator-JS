@@ -15,6 +15,4 @@ export function stringCalculator(input: string): number {
   const result = filteredNumbers.reduce((sum, num) => sum + num, 0);
 
   return result;
-
-  console.log("Hello, World!");
 }
